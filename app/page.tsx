@@ -3,14 +3,14 @@
 import type React from "react"
 
 import { useState, useEffect, useRef } from "react"
-import SmartSimpleBrilliant from "../components/smart-simple-brilliant"
-import YourWorkInSync from "../components/your-work-in-sync"
-import EffortlessIntegration from "../components/effortless-integration-updated"
-import NumbersThatSpeak from "../components/numbers-that-speak"
-import DocumentationSection from "../components/documentation-section"
+import LienWaiverHero from "../components/lien-waiver-hero"
+import LienWaiverServices from "../components/lien-waiver-services"
+import LienWaiverProcess from "../components/lien-waiver-process"
+import LienWaiverStats from "../components/lien-waiver-stats"
+import LienWaiverDocumentation from "../components/lien-waiver-documentation"
 import TestimonialsSection from "../components/testimonials-section"
 import FAQSection from "../components/faq-section"
-import PricingSection from "../components/pricing-section"
+import LienWaiverPricing from "../components/lien-waiver-pricing"
 import CTASection from "../components/cta-section"
 import FooterSection from "../components/footer-section"
 
@@ -67,13 +67,13 @@ export default function LandingPage() {
   const getDashboardContent = () => {
     switch (activeCard) {
       case 0:
-        return <div className="text-[#828387] text-sm">Customer Subscription Status and Details</div>
+        return <div className="text-[#828387] text-sm">Lien Waiver Management Dashboard</div>
       case 1:
-        return <div className="text-[#828387] text-sm">Analytics Dashboard - Real-time Insights</div>
+        return <div className="text-[#828387] text-sm">Document Processing - Real-time Status</div>
       case 2:
-        return <div className="text-[#828387] text-sm">Data Visualization - Charts and Metrics</div>
+        return <div className="text-[#828387] text-sm">Compliance Tracking - Legal Requirements</div>
       default:
-        return <div className="text-[#828387] text-sm">Customer Subscription Status and Details</div>
+        return <div className="text-[#828387] text-sm">Lien Waiver Management Dashboard</div>
     }
   }
 
@@ -97,7 +97,7 @@ export default function LandingPage() {
                 <div className="flex justify-center items-center">
                   <div className="flex justify-start items-center">
                     <div className="flex flex-col justify-center text-[#2F3037] text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-5 font-sans">
-                      Brillance
+                      LienWaiver Pro
                     </div>
                   </div>
                   <div className="pl-3 sm:pl-4 md:pl-5 lg:pl-5 flex justify-start items-start hidden sm:flex flex-row gap-2 sm:gap-3 md:gap-4 lg:gap-4">
@@ -412,18 +412,18 @@ export default function LandingPage() {
                   </div>
 
                   <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-0 border-l border-r border-[rgba(55,50,47,0.12)]">
-                    {/* Top Left - Smart. Simple. Brilliant. */}
+                    {/* Top Left - Smart Document Processing */}
                     <div className="border-b border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Smart. Simple. Brilliant.
+                          Smart Document Processing
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Your data is beautifully organized so you see everything clearly without the clutter.
+                          Automated lien waiver generation and processing with intelligent compliance checking.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden">
-                        <SmartSimpleBrilliant
+                        <LienWaiverHero
                           width="100%"
                           height="100%"
                           theme="light"
@@ -432,18 +432,18 @@ export default function LandingPage() {
                       </div>
                     </div>
 
-                    {/* Top Right - Your work, in sync */}
+                    {/* Top Right - Legal Compliance */}
                     <div className="border-b border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] font-semibold leading-tight font-sans text-lg sm:text-xl">
-                          Your work, in sync
+                          Legal Compliance
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Every update flows instantly across your team and keeps collaboration effortless and fast.
+                          Stay compliant with state and federal lien laws with automated updates and notifications.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden text-right items-center justify-center">
-                        <YourWorkInSync
+                        <LienWaiverServices
                           width="400"
                           height="250"
                           theme="light"
@@ -452,38 +452,38 @@ export default function LandingPage() {
                       </div>
                     </div>
 
-                    {/* Bottom Left - Effortless integration */}
+                    {/* Bottom Left - Streamlined Process */}
                     <div className="border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6 bg-transparent">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Effortless integration
+                          Streamlined Process
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          All your favorite tools connect in one place and work together seamlessly by design.
+                          From request to execution, manage your entire lien waiver workflow in one platform.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden justify-center items-center relative bg-transparent">
                         <div className="w-full h-full flex items-center justify-center bg-transparent">
-                          <EffortlessIntegration width={400} height={250} className="max-w-full max-h-full" />
+                          <LienWaiverProcess width={400} height={250} className="max-w-full max-h-full" />
                         </div>
                         {/* Gradient mask for soft bottom edge */}
                         <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-[#F7F5F3] to-transparent pointer-events-none"></div>
                       </div>
                     </div>
 
-                    {/* Bottom Right - Numbers that speak */}
+                    {/* Bottom Right - Performance Analytics */}
                     <div className="p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Numbers that speak
+                          Performance Analytics
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Track growth with precision and turn raw data into confident decisions you can trust.
+                          Track processing times, compliance rates, and cost savings with detailed reporting.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden items-center justify-center relative">
                         <div className="absolute inset-0 flex items-center justify-center">
-                          <NumbersThatSpeak
+                          <LienWaiverStats
                             width="100%"
                             height="100%"
                             theme="light"
@@ -492,13 +492,6 @@ export default function LandingPage() {
                         </div>
                         {/* Gradient mask for soft bottom edge */}
                         <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-[#F7F5F3] to-transparent pointer-events-none"></div>
-                        {/* Fallback content if component doesn't render */}
-                        <div className="absolute inset-0 flex items-center justify-center opacity-20 hidden">
-                          <div className="flex flex-col items-center gap-2 p-4">
-                            <div className="w-3/4 h-full bg-green-500 rounded-full"></div>
-                          </div>
-                          <div className="text-sm text-green-600">Growth Rate</div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -518,13 +511,13 @@ export default function LandingPage() {
               </div>
 
               {/* Documentation Section */}
-              <DocumentationSection />
+              <LienWaiverDocumentation />
 
               {/* Testimonials Section */}
               <TestimonialsSection />
 
               {/* Pricing Section */}
-              <PricingSection />
+              <LienWaiverPricing />
 
               {/* FAQ Section */}
               <FAQSection />

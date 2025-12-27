@@ -22,25 +22,25 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "In just a few minutes, we transformed our data into actionable insights. The process was seamless and incredibly efficient!",
+        "LienWaiver Pro streamlined our entire waiver process. What used to take weeks now happens in days with complete legal compliance!",
       name: "Jamie Marshall",
-      company: "Co-founder, Exponent",
+      company: "Project Manager, BuildRight Construction",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_35_19%20AM-z4zSRLsbOQDp7MJS1t8EXmGNB6Al9Z.png",
     },
     {
       quote:
-        "Brillance has revolutionized how we handle custom contracts. The automation saves us hours every week and eliminates errors completely.",
+        "The automated compliance checking has saved us from costly legal issues. We never miss a deadline or requirement anymore.",
       name: "Sarah Chen",
-      company: "VP Operations, TechFlow",
+      company: "Legal Counsel, MegaBuild Corp",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2010_54_18%20AM-nbiecp92QNdTudmCrHr97uekrIPzCP.png",
     },
     {
       quote:
-        "The billing automation is a game-changer. What used to take our team days now happens automatically with perfect accuracy.",
+        "Managing lien waivers across multiple states used to be a nightmare. Now it's completely automated and error-free.",
       name: "Marcus Rodriguez",
-      company: "Finance Director, InnovateCorp",
+      company: "Operations Director, National Contractors",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_01_05%20AM-TBOe92trRxKn4G5So1m9D2h7LRH4PG.png",
     },

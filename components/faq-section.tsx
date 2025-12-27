@@ -9,34 +9,34 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "What is Brillance and who is it for?",
+    question: "What is LienWaiver Pro and who is it for?",
     answer:
-      "Brillance is a comprehensive billing automation platform designed for businesses that need custom contract management. It's perfect for SaaS companies, service providers, and enterprises looking to streamline their billing processes.",
+      "LienWaiver Pro is a comprehensive lien waiver management platform designed for construction companies, contractors, and legal professionals. It automates the creation, processing, and compliance checking of lien waivers across all 50 states.",
   },
   {
-    question: "How does the custom contract billing work?",
+    question: "How does the automated compliance checking work?",
     answer:
-      "Our platform automatically processes your custom contracts, calculates billing amounts based on your specific terms, and generates invoices. You can set up complex pricing structures, usage-based billing, and custom billing cycles.",
+      "Our platform continuously monitors state and federal lien laws, automatically updates templates to ensure compliance, and flags any potential issues before documents are processed. We track deadlines and requirements for each jurisdiction.",
   },
   {
-    question: "Can I integrate Brillance with my existing tools?",
+    question: "Can I integrate LienWaiver Pro with my existing project management tools?",
     answer:
-      "Yes! Brillance integrates seamlessly with popular CRM systems, accounting software, and payment processors. We support APIs and webhooks for custom integrations with your existing workflow.",
+      "Yes! LienWaiver Pro integrates seamlessly with popular construction management software, accounting systems, and document management platforms. We support APIs and webhooks for custom integrations.",
   },
   {
-    question: "What kind of support do you provide?",
+    question: "What types of lien waivers can I create?",
     answer:
-      "We offer 24/7 customer support, dedicated account managers for enterprise clients, comprehensive documentation, and onboarding assistance to help you get started quickly.",
+      "You can create conditional and unconditional lien waivers for progress payments and final payments. Our templates are customized for each state's specific requirements and automatically include all necessary legal language.",
   },
   {
-    question: "Is my data secure with Brillance?",
+    question: "Is my sensitive project data secure?",
     answer:
-      "Absolutely. We use enterprise-grade security measures including end-to-end encryption, SOC 2 compliance, and regular security audits. Your data is stored in secure, redundant data centers.",
+      "Absolutely. We use bank-level security including end-to-end encryption, SOC 2 compliance, and regular security audits. All data is stored in secure, HIPAA-compliant data centers with full backup and disaster recovery.",
   },
   {
-    question: "How do I get started with Brillance?",
+    question: "How quickly can I get started with LienWaiver Pro?",
     answer:
-      "Getting started is simple! Sign up for our free trial, connect your existing systems, and our onboarding team will help you set up your first custom billing workflow within 24 hours.",
+      "Getting started is simple! Sign up for our free trial, upload your project information, and our onboarding team will help you process your first lien waiver within 24 hours. No technical expertise required.",
   },
 ]
 

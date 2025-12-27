@@ -1,4 +1,4 @@
-# Brillance SaaS Landing Page
+# LienWaiver Pro Landing Page
 
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
@@ -6,6 +6,8 @@
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/HvmzFXcTn25)
 
 ## Overview
+
+A comprehensive lien waiver management platform designed for construction companies, contractors, and legal professionals. This landing page showcases automated lien waiver processing, compliance checking, and legal document management features.
 
 This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
 Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
