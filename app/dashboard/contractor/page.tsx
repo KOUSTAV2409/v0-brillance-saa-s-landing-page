@@ -29,7 +29,15 @@ export default function ContractorDashboard() {
             </div>
             <div className="flex items-center space-x-4">
               <button className="text-[#605A57] hover:text-[#37322F]">Settings</button>
-              <button className="text-[#605A57] hover:text-[#37322F]">Logout</button>
+              <button 
+                onClick={() => {
+                  localStorage.removeItem('userData')
+                  window.location.href = '/login'
+                }}
+                className="text-[#605A57] hover:text-[#37322F]"
+              >
+                Logout
+              </button>
             </div>
           </div>
         </div>
