@@ -11,7 +11,7 @@ import LienWaiverStats from "../components/lien-waiver-stats"
 import LienWaiverDocumentation from "../components/lien-waiver-documentation"
 import TestimonialsSection from "../components/testimonials-section"
 import FAQSection from "../components/faq-section"
-import LienWaiverPricing from "../components/lien-waiver-pricing"
+import LienWaiverPricing from "../components/lien-waiver-pricing" 
 import CTASection from "../components/cta-section"
 import FooterSection from "../components/footer-section"
 
